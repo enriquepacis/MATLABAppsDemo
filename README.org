@@ -43,4 +43,5 @@ to a global variable.
     - [[https://youtu.be/fF5dautaUfI][Creating Publication-quality Plots in MATLAB]]
     - [[https://youtu.be/y0KX8bAGX6M][10 - Basic MATLAB Functions]]
 - Other Documents and Tutorials
-  - Object-oriented Programming in MATLAB
+  - [[https://github.com/enriquepacis/MATLABIntro][Introduction to MATLAB]]
+  - [[https://github.com/enriquepacis/MATLAB_OOP_booklet][Object-oriented Programming in MATLAB]]
