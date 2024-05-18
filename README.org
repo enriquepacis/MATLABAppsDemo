@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+# -*- mode: org -*-
+
+#+title: Demo: Creating MATLAB Applications (Apps)
+#+author: Dr. Enrique P. Blair
+
+* Overview
+
+This repository accompanies my YouTube video, [[https://youtu.be/TGK17fUA5Nw][Demo: Creating a MATLAB
+App]].
+
+Here, I demonstrate how to create an interactive MATLAB App. The
+overview is as follows:
+1. (Optional) Start with a script that does a simple calculation and
+   plotting.
+   1. You don't have to do this, but it's wise to make sure that you
+      have a good workflow before your integrate it with an app.
+2. Make a new MATLAB App (also known as a graphical user interface,
+   or GUI).
+3. Add UI elements (axes, sliders, edit fields, etc.)
+4. Add a function to the app that serves as a calculational
+   engine. This is generally an adaptation of your
+   previously-developed and previously-tested workflow from step 1.
+5. Add a callback for each interactive element
+6. Each callback should invoke the calculational engine
+   1. The calculational engine must extract values from the UI
+      elements using the syntax =app.SomeUIElement.Value=
+
+Additionally, if there are other variables you want to pass back and
+forth to different app elements, you can embed these in the app
+properties (not discussed in this video). This is like having access
+to a global variable.
+
+
+* Links and References
+- Related Videos
+  - Quantum-dot Cellular Automata
+    - [[https://youtu.be/z8LBOpfYcgY][Overview of the QCA Concept]]
+    - [[https://youtu.be/fl_q1QnYkzQ][Visualizing a Two-dot QCA Cell in MATLAB]]
+  - MATLAB Programming
+    - [[https://youtu.be/tNcSpyCa6bc][Introduction to MATLAB and LiveScripting]]
+    - [[https://youtu.be/LTHJSTgncgU][01 - Intro to MATLAB]]
+    - [[https://youtu.be/fF5dautaUfI][Creating Publication-quality Plots in MATLAB]]
+    - [[https://youtu.be/y0KX8bAGX6M][10 - Basic MATLAB Functions]]
+- Other Documents and Tutorials
+  - Object-oriented Programming in MATLAB
